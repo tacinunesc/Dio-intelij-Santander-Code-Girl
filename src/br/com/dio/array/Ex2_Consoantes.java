@@ -5,6 +5,7 @@ Faça um Programa que leia um vetor de 6 caracteres,
 e diga quantas consoantes foram lidas.
 Imprima as consoantes.
 */
+// vai imprimir as consoantes digitadas pelo usuario
 
 import java.util.Scanner;
 
@@ -12,7 +13,7 @@ public class Ex2_Consoantes {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        String[] consoantes = new String[6];
+        String[] consoantes = new String[5];
         int quantidadeConsoantes = 0;
 
         int count = 0;
