@@ -1,10 +1,12 @@
 package dio.colecoes_java.Lista.map;
 
+import br.com.dio.gato.gato;
+
 import java.util.Objects;
 
 public class Contato {
-private String nome;
-private Integer numero;
+    private String nome;
+    private Integer numero;
 
 public Contato(String nome, Integer numero){
 this.nome = nome;
@@ -37,3 +39,4 @@ public Integer getNumero(){
             '}';
 }
 }
+
